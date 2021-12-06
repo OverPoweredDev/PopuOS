@@ -1,10 +1,25 @@
 # PopuOS
 
 ### Overview
-You guys are in charge of this
+A mini OS-Simulator that can run programs built in a Custom Language. Archived as of December 6, 2021.
+
+#### Language
+- `GD` Get Data
+- `PD` Print Data
+- `LR` Load Register
+- `SR` Store Register
+- `CR` Compare Register
+- `BT` Transfer to Line
+- `H ` Halt
+
+The `AMJ<batch-num><instr-count><data-count>` is simply to specify the number of lines and start of program
+
+<br>
 
 ### Sample Programs
 Put these in Input.txt and run
+
+<br>
 
 ```
 $AMJ000100030001
@@ -15,8 +30,10 @@ $DTA
 Hello
 $END0001
 ```
-
 Prints Hello
+
+<br>
+
 ```
 $AMJ000200030001
 GD10
@@ -29,6 +46,9 @@ I LIKE THIS PEN OF
 $END0002
 ```
 Should Print "I LIKE THIS PEN OF HIS"
+
+<br>
+
 ```
 $AMJ000300120001
 GD20
