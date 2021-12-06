@@ -10,7 +10,7 @@ A mini OS-Simulator that can run programs built in a Custom Language. Archived a
 - `SR` Store Register
 - `CR` Compare Register
 - `BT` Transfer to Line
-- `H ` Halt
+- `H` Halt
 
 The `AMJ<batch-num><instr-count><data-count>` is simply to specify the number of lines and start of program
 
